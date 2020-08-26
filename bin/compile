@@ -11,8 +11,8 @@ ENV_DIR="$3"
 
 # Default configuration which you can change by setting environment variables
 # e.g. heroku config:set CLEAR_CACHE=1
-GHC_VER=${GHC_VER:-7.10.3}
-CABAL_VER=${CABAL_VER:-1.22.8.0}
+GHC_VER=${GHC_VER:8.2.2}
+CABAL_VER=${CABAL_VER:3.2.0.0}
 PREBUILT=${PREBUILT:-https://s3.amazonaws.com/heroku-ghc}
 CLEAR_CACHE=${CLEAR_CACHE:-0}
 
